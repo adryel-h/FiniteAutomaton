@@ -1,4 +1,4 @@
-# FiniteAutomatonLab3
+# FiniteAutomaton
 Statement: Write a program that reads the elements of a finite automaton from a file and:
 
 Display set of states, alphabet, transitions, set of final states
