@@ -5,6 +5,8 @@ Display set of states, alphabet, transitions, set of final states
 
 Documentation should also include in BNF or EBNF format the form in which the FA.in file should be written
 
+textfile := transition{transition}
+
 transition := "(" ["{"] state ["}"] "," subalpha ")" "->" ( "(" state ")" ) | ( "[" state "]" )
 
 state := symbol | symbol state
